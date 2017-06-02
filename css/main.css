@@ -75,46 +75,72 @@ body {
 
 /*Section one Done*/
 
-
 .sectionTwo {
     background-color: #0b1942;
     color: white;
     padding: 0 0 50px;
-      
 }
-.sectionTwo h1{
-    margin: 0 2rem;
+
+.list {
+    padding: 0 0 0 25px;
 }
-.sectionTwo a{
-    color:#00B7D3
+
+
+.sectionTwo h1 {
+    margin: 0 3rem;
+    padding: 15px 0px;
 }
+
+.sectionTwo a {
+    color: #00B7D3
+}
+
 .subsectionOne {
-    
     background-color: white;
-    background-repeat:no-repeat;
-    
+    background-repeat: no-repeat;
     display: flex;
     flex-direction: row;
-    color:#0B1942;
-    margin: 0 2rem 2rem;
-}
-.subsectionOne img{
-    width: 88%;
-    float: left;
+    color: #0B1942;
+    margin: 0 1rem 2rem;
     padding: 10px;
 }
-.subsectionOne div{
-    margin: 0px 63px 1px 1px;
+.line{border-bottom:1px solid black;
 }
-.subsectionOne p{
-    padding:10px 0;
+.subsectionOne div {
+    flex: 1 50%
 }
-.subsectionTwo{
-    display:flex;
+
+.subsectionOne img {
+    width: 100%;
+}
+
+.subsectionOne a {
+    font-size: x-large;
+}
+.subsectionOne p {
+    padding:.5rem 0 1rem;
+}
+
+
+.subsectionOne ul {
+    line-height: 2rem;
+    padding: 0px 0 0 25px;
+    font-weight:lighter;
+}
+
+.subsectionTwo {
+    display: flex;
     flex-wrap: wrap;
-    flex-direction:column;
-    margin: 0 2rem;
-    color:#0B1942;
+    flex-direction: column;
+    margin: 0 1rem;
+    color: #0B1942;
+}
+.subsectionTwo a{
+    margin: 0rem 0.6rem;
+    
+}
+.subsectionTwo p{
+    margin:0 0.6rem;
 }
 
 .images {
@@ -123,20 +149,25 @@ body {
 }
 
 .images img {
-   width: 91%;
-    padding: 10px;
+    width: 90%;
+    padding: 10px 10px 0 10px;
 }
-.images p{padding:6px 0}
+
+.images p {
+    padding: 6px 0
+}
 
 .images div {
-    background-color:#E2E2E2;
+    background-color: #E2E2E2;
     flex: 1 50%;
 }
-.bottomNav{
-    display:flex;
-    text-align:center;
-    flex-direction:column;
+
+.bottomNav {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
 }
+
 .bottomNav div {
     flex-grow: 1;
     text-align: center;
@@ -161,10 +192,24 @@ body {
 .bottomNav a:last-child {
     background-color: #00D5E7
 }
-footer{
+
+
+/*bottom nav done*/
+
+footer {
     background-color: #7DDFE8;
     padding: 40px 0px;
     text-align: center;
     color: white;
     font-size: large;
+}
+
+
+/*footer done*/
+
+@media only screen and (max-width:544px){
+
+
+
+    
 }
