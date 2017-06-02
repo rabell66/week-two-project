@@ -7,16 +7,17 @@
 *, *:before, *:after {
     box-sizing: inherit;
 }
-body{
+
+body {
     font-family: 'PT Sans', sans-serif;
-    max-width:100%;
+    max-width: 100%;
 }
+
 .navBar {
     background-color: #F5005B;
     display: flex;
     flex-direction: row;
     width: 100vw;
-
 }
 
 .navBar img {
@@ -34,17 +35,14 @@ body{
     flex-direction: column;
     color: white;
     padding: 20px;
-    text-decoration:none;
+    text-decoration: none;
 }
 
 .navBar a:first-child {
-
     background-color: #00A5BF;
-    
 }
 
 .navBar a:nth-child(2) {
-    
     background-color: #00B7D3;
 }
 
@@ -58,10 +56,13 @@ body{
 .sectionOne {
     margin: 0 5%;
 }
-.sectionOne p{
+
+.sectionOne p {
     margin: 1rem 0;
 }
-.sectionOne h1 {margin: 1rem 0;
+
+.sectionOne h1 {
+    margin: 1rem 0;
     color: #0B1942;
 }
 
@@ -71,40 +72,99 @@ body{
     background-color: #0B1942;
 }
 
+
+/*Section one Done*/
+
+
 .sectionTwo {
     background-color: #0b1942;
     color: white;
-   
-    
-
+    padding: 0 0 50px;
+      
 }
 .sectionTwo h1{
     margin: 0 2rem;
 }
 .sectionTwo a{
-    color:#94D1DC
+    color:#00B7D3
 }
-
-
 .subsectionOne {
     
     background-color: white;
     background-repeat:no-repeat;
-    margin: 0 2rem;
+    
     display: flex;
     flex-direction: row;
     color:#0B1942;
+    margin: 0 2rem 2rem;
 }
 .subsectionOne img{
     width: 88%;
     float: left;
-    padding: 8% 0 15% 11%;
+    padding: 10px;
 }
 .subsectionOne div{
     margin: 0px 63px 1px 1px;
+}
+.subsectionOne p{
+    padding:10px 0;
 }
 .subsectionTwo{
     display:flex;
     flex-wrap: wrap;
     flex-direction:column;
+    margin: 0 2rem;
+    color:#0B1942;
+}
+
+.images {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.images img {
+   width: 91%;
+    padding: 10px;
+}
+.images p{padding:6px 0}
+
+.images div {
+    background-color:#E2E2E2;
+    flex: 1 50%;
+}
+.bottomNav{
+    display:flex;
+    text-align:center;
+    flex-direction:column;
+}
+.bottomNav div {
+    flex-grow: 1;
+    text-align: center;
+}
+
+.bottomNav a {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    padding: 20px;
+    text-decoration: none;
+}
+
+.bottomNav a:first-child {
+    background-color: #00A5BF;
+}
+
+.bottomNav a:nth-child(2) {
+    background-color: #00B7D3;
+}
+
+.bottomNav a:last-child {
+    background-color: #00D5E7
+}
+footer{
+    background-color: #7DDFE8;
+    padding: 40px 0px;
+    text-align: center;
+    color: white;
+    font-size: large;
 }
