@@ -14,13 +14,14 @@ body {
 }
 
 .navBar {
-    background-color: #F5005B;
+    background-color: #7DDFE8;
     display: flex;
     flex-direction: row;
     width: 100vw;
 }
 
 .navBar img {
+    background-color: #F5005B;
     width: 180px;
     height: 180px;
 }
@@ -211,6 +212,12 @@ footer {
 /*footer done*/
 
 @media only screen and (min-width:544px) {
+    .navBar a{
+        width:6vw;
+    }
+    .navBar div {
+        display: flex;
+    }
     .subSection {
         display: flex;
     }
@@ -229,4 +236,33 @@ footer {
         display: flex;
         flex-wrap: nowrap;
     }
+    .bottom {
+        display: flex;
+        flex-direction: row;
+    }
+    .bottomNav {
+        text-align: center;
+        display: flex;
+        flex-direction: row;
+
+    }
+    .bottomNav a {
+        width:10vw;
+    }
+    footer {
+        background-color: #7DDFE8;
+        padding: 40px 0px;
+        text-align: center;
+        color: white;
+        font-size: large;
+        flex: 1 100%;
+        text-align: end;
+    }
+}
+
+@media only screen and (min-width:769px) {
+
+
+
+
 }
