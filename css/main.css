@@ -263,6 +263,28 @@ footer {
 @media only screen and (min-width:769px) {
 
 
-
-
+.desktop{
+    display:flex
+    
 }
+.images {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .subsectionOne{
+        width: 138vw;
+    height: 29vw;
+    }
+    .subsectionOne ul {
+        line-height:1rem;
+        padding:0 0 0 1rem;
+    }
+    .subsectionOne p{ margin: 0;
+    padding:0rem 0rem 1rem 0rem;
+    }
+    .subsectionOne img {
+        width:20vw;
+    }
+
+    }
+
