@@ -287,4 +287,74 @@ footer {
     }
 
     }
+/********************Join Page***********************/
 
+
+.joinBody{
+    margin:0 0 0 1rem;
+}
+.join h1{
+    padding:2rem 0;
+    font-weight: lighter;
+    
+}
+.join input{
+    border:1px solid black;
+    width: 95%;
+    padding: 2rem 0;
+    height: 20rem;
+    z-index:1;
+}
+
+
+
+
+.join img{
+    border-radius: 50%;
+    width: 95%;
+    padding: 2rem 0;
+}
+.contact{display:flex;flex-direction:column;
+
+}
+.contact input{border: 1px #DFDFDF solid;
+width:95%;
+height:1.5rem
+ }
+ .password{display:flex;flex-direction:column;
+
+ }
+ .password input{
+     border:1px #DFDFDF solid;width:95%;
+     height:1.5rem; 
+ }
+ .checks{
+display:flex;
+flex-direction:column
+
+
+ }
+ .checks input{
+     margin:.5rem 0;
+ }
+ .checks p {
+     margin:2rem 0 .5rem 0
+ }
+.joinBottom{
+    margin: 1rem 0 0 1rem;
+    display:flex;
+    flex-direction:column;
+}
+.joinBottom textarea{
+    border: solid black 1px;
+    width:95%;
+    height: 3rem;
+}
+.joinBottom input{
+    margin:2rem 0 ;
+    border:solid 1px black;
+    width: 33%;
+    height: 3rem;
+    background-color:#F5005B;
+    color: white;
+}
