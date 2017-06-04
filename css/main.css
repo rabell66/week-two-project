@@ -212,8 +212,8 @@ footer {
 /*footer done*/
 
 @media only screen and (min-width:544px) {
-    .navBar a{
-        width:6vw;
+    .navBar a {
+        width: 6vw;
     }
     .navBar div {
         display: flex;
@@ -244,15 +244,14 @@ footer {
         text-align: center;
         display: flex;
         flex-direction: row;
-
     }
     .bottomNav a {
-        width:10vw;
+        width: 10vw;
     }
     footer {
         background-color: #7DDFE8;
         padding: 40px 0px;
-        text-align: center;
+    text-align: center;
         color: white;
         font-size: large;
         flex: 1 100%;
@@ -261,100 +260,178 @@ footer {
 }
 
 @media only screen and (min-width:769px) {
-
-
-.desktop{
-    display:flex
-    
-}
-.images {
+    .desktop {
+        display: flex
+    }
+    .images {
         display: flex;
         flex-wrap: wrap;
     }
-    .subsectionOne{
+    .subsectionOne {
         width: 138vw;
-    height: 29vw;
+        height: 29vw;
     }
     .subsectionOne ul {
-        line-height:1rem;
-        padding:0 0 0 1rem;
+        line-height: 1rem;
+        padding: 0 0 0 1rem;
     }
-    .subsectionOne p{ margin: 0;
-    padding:0rem 0rem 1rem 0rem;
+    .subsectionOne p {
+        margin: 0;
+        padding: 0rem 0rem 1rem 0rem;
     }
     .subsectionOne img {
-        width:20vw;
+        width: 20vw;
     }
+}
 
-    }
+
 /********************Join Page***********************/
 
+.joinBody {
+    margin: 0 0 0 1rem;
+}
 
-.joinBody{
-    margin:0 0 0 1rem;
-}
-.join h1{
-    padding:2rem 0;
+.join h1 {
+    padding: 2rem 0;
     font-weight: lighter;
-    
 }
-.join input{
-    border:1px solid black;
+
+.join input {
+    border: 1px solid black;
     width: 95%;
     padding: 2rem 0;
     height: 20rem;
-    z-index:1;
 }
 
-
-
-
-.join img{
+.join img {
     border-radius: 50%;
     width: 95%;
     padding: 2rem 0;
 }
-.contact{display:flex;flex-direction:column;
 
+.contact {
+    display: flex;
+    flex-direction: column;
 }
-.contact input{border: 1px #DFDFDF solid;
-width:95%;
-height:1.5rem
- }
- .password{display:flex;flex-direction:column;
 
- }
- .password input{
-     border:1px #DFDFDF solid;width:95%;
-     height:1.5rem; 
- }
- .checks{
-display:flex;
-flex-direction:column
+.contact input {
+    border: 1px #DFDFDF solid;
+    width: 95%;
+    height: 1.5rem
+}
 
+.password {
+    display: flex;
+    flex-direction: column;
+}
 
- }
- .checks input{
-     margin:.5rem 0;
- }
- .checks p {
-     margin:2rem 0 .5rem 0
- }
-.joinBottom{
+.password input {
+    border: 1px #DFDFDF solid;
+    width: 95%;
+    height: 1.5rem;
+}
+
+.checks {
+    display: flex;
+    flex-direction: column
+}
+
+.checks input {
+    margin: .5rem 0;
+}
+
+.checks p {
+    margin: 2rem 0 .5rem 0
+}
+
+.joinBottom {
     margin: 1rem 0 0 1rem;
-    display:flex;
-    flex-direction:column;
+    display: flex;
+    flex-direction: column;
 }
-.joinBottom textarea{
+
+.joinBottom textarea {
     border: solid black 1px;
-    width:95%;
+    width: 95%;
     height: 3rem;
 }
-.joinBottom input{
-    margin:2rem 0 ;
-    border:solid 1px black;
+
+.joinBottom input {
+    margin: 2rem 0;
+    border: solid 1px black;
     width: 33%;
     height: 3rem;
-    background-color:#F5005B;
+    background-color: #F5005B;
     color: white;
+}
+
+
+/********************calendar***************************/
+
+.calendar {
+    background-color: #0B1942;
+    color: white;
+}
+
+h1 {
+    font-weight: lighter;
+    padding: 1rem 0 1rem 1rem;
+}
+
+.month {
+    padding: 0 0 3rem 0
+}
+
+.weekOne {
+    display: flex;
+    background-color:white;
+}
+
+.weekTwo {
+    display: flex;
+    background-color:white;
+}
+
+.weekThree {
+    display: flex;
+    background-color:white;
+}
+
+.weekFour {
+    display: flex;
+    background-color:white;
+}
+
+.weekFive {
+    display: flex;
+    background-color:white;
+}
+
+.day {
+    height: 14vw;
+    border: 1px solid #0B1942;
+
+    flex: 1 1 0;
+}
+
+.number {
+    height: 50%;
+    background-color: #0B1942;
+    width: 50%;
+    color: white;
+    font-weight: lighter;
+    display:flex;
+    justify-content: center;
+}
+
+
+    
+
+
+.weekFive {
+    max-width:43%;
+}
+
+.weekTwo:nth-child(6){
+    background-color: green !important;
 }
